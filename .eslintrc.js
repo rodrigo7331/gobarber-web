@@ -21,8 +21,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    '@typescript-eslint',
-    'prettier'
+    'prettier',
+    'react-hooks',
   ],
   rules: {
     'react/static-property-placement': 'off',
@@ -32,6 +32,10 @@ module.exports = {
       'warn',
       { extensions: ['.jsx', '.js']}
     ],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'no-param-reassign' : 'off',
+    'no-console': ['error', {allow: ['tron']} ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
 };
