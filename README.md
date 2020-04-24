@@ -1,5 +1,5 @@
 <h2 align="center">
-  A barber scheduling app that shows to the barber his agenda for the day.
+  A barber scheduling app.
 </h2>
 
 
